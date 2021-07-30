@@ -1,0 +1,133 @@
+.active-char {
+    background: rgba(0, 0, 0, 0.4);
+    border-top: 10px solid rgb(39, 39, 39);
+    border-bottom: 10px solid rgb(39, 39, 39);
+}
+
+.createchar:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.buttoncancel:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputfname:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputlname:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputsex:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputheight:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputweight:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputdob:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputdesc:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.inputattributes:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+    color: white;
+}
+
+.character-box:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+}
+
+.sidenav a:hover {
+    color: gray;
+    transition: 500ms;
+}
+
+.yesbutton:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+}
+
+.nobutton:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+}
+
+.floating1 {
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.floating2 {
+    animation-name: floating;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.floating3 {
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.floating4 {
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}

@@ -1,0 +1,28 @@
+.sidenavcontainer {
+    top: 0%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(54, 54, 54, 0.8);
+    border-bottom: 5px solid rgb(39, 39, 39);;
+}
+
+.sidenav {
+    display: flex;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+}
+
+.sidenav a {
+    font-size: 30px;
+    padding: 6px 6px 6px 32px;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,186 @@
+#identity {
+    display: none;
+    position: absolute;
+    padding-bottom: 10px;
+    width: 85%;
+    height: 450px;
+    right: 0%;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    background: rgba(54, 54, 54, 0.8);
+    border-bottom: 10px solid rgb(39, 39, 39);
+    border-top: 10px solid rgb(39, 39, 39);
+    border-left: 10px solid rgb(39, 39, 39);
+}
+
+.inputfname {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputlname {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputsex {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputheight {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputweight {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    color: black;
+    border: solid rgb(39, 39, 39) 5px;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputdob {
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    width: 15%;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputdesc {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 500px;
+    height: 100px;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+.inputattributes {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 500px;
+    height: 100px;
+    padding: 12px;
+    border: solid rgb(39, 39, 39) 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: "Lato", sans-serif;
+}
+
+#checkboxes {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: auto;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container:hover input~.checkmark {
+    background-color: rgb(39, 39, 39);
+}
+
+.container input:checked~.checkmark {
+    background-color: rgb(39, 39, 39);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#createbuttons {
+    position: relative;
+    width: auto;
+    top: 80%;
+    left: 50%;
+}

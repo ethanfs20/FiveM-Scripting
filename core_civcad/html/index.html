@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="identity.css" type="text/css">
+    <link rel="stylesheet" href="shared.css" type="text/css">
+    <link rel="stylesheet" href="vehicles.css" type="text/css">
+    <link rel="stylesheet" href="weapons.css" type="text/css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="navcon">
+            <h1 id="vehtitle">San Andreas Civilian Center</h1>
+            <img class="logoimage">
+            <div id="navbuttons">
+                <button class="button" id="identity">Identity</button>
+                <button class="button" id="vehicles">Vehicles</button>
+                <button class="button" id="weapons">Weapons</button>
+                <button class="button" id="exit">Close Menu</button>
+            </div>
+        </div>
+        <div id="vehiclecon">
+            <h1 id="vehtitle">Registered Vehicles</h1>
+            <h3 id="vehnone">You have no vehicles!</h3>
+            <div id="vehbutcon">
+                <button id="vehsave" type="submit">Register Veh</button>
+            </div>
+        </div>
+        <div id="weaponcon">
+            <h2 id="navtitle">Registered Weapons</h2>
+        </div>
+        <div id="identitycon">
+            <div id="identpfpcon">
+                <h2 id="navtitle" style="text-align: center;">Character Picture</h2>
+                <div id="identpfp"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="identpfpbutcon">
+                    <input type="text" placeholder="Insert Link" id="pfplink"></input>
+                </div>
+            </div>
+            <div id="identinputcon">
+                <h2 id="navtitle">Character Information</h2>
+                <form id="form">
+                    <input type="text" placeholder="Firstname" id="firstname"></input>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Lastname" id="lastname"></input>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Sex" id="sex"></input>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Height" id="height"></input>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Weight" id="weight"></input>
+                    <br>
+                    <br>
+                    <input type="date" id="dob">
+                    <br>
+                    <br>
+                    <h2 id="navtitle">License & Insurance</h2>
+                    <label class="container">Valid License
+                        <input type="checkbox" id="license">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Insured
+                        <input type="checkbox" id="insuredident">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Motorcycle
+                        <input type="checkbox" id="motorcycle">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">CDL
+                        <input type="checkbox" id="cdl">
+                        <span class="checkmark"></span>
+                    </label>
+                </form>
+            </div>
+            <div id="identbutcon">
+                <button id="identsave" type="submit">Save</button>
+                <button id="identsave" type="submit">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+
+</html>

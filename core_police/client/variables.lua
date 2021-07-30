@@ -1,0 +1,14 @@
+allServiceCops = {}
+blipsCops = {}
+onduty = false
+handCuffed = false
+drag = false
+officerDrag = -1
+handcuff = false
+playerStillDragged = false
+distanceToCheck = 5.0
+permissions = true
+suspectCuffed = false
+terminated = false
+femaleHash = GetHashKey("mp_f_freemode_01")
+maleHash = GetHashKey("mp_m_freemode_01")

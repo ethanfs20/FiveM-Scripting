@@ -1,0 +1,93 @@
+html {
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pinfodiv {
+    position: absolute;
+    font-size: 30px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+.yesbutton {
+    background: green;
+    color: white;
+    float: left;
+    height: 50px;
+    width: 175px;
+}
+
+.nobutton {
+    background: #930b0b;
+    color: white;
+    float: left;
+    height: 50px;
+    width: 175px;
+}
+
+.createchar {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    font-family: "Lato", sans-serif;
+}
+
+.buttoncancel {
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    width: 250px;
+    height: 50px;
+    background: #930b0b;
+    font-family: "Lato", sans-serif;
+}
+
+.mainbg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.slider-outer {
+    height: 100% !important;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: transparent;
+    background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+}
+
+.slider .slide-item {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}

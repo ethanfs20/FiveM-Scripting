@@ -1,0 +1,53 @@
+#charcont {
+    position: absolute;
+    display: none;
+    width: 75%;
+    height: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#charcontainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.character-box {
+    color: #FFFFFF;
+    background: rgba(54, 54, 54, 0.8);
+    padding: 20px;
+    height: min-content;
+    border-left: 5px solid rgb(39, 39, 39);
+    border-right: 5px solid rgb(39, 39, 39);
+}
+
+.character-info {
+    width: auto;
+    text-align: left!important;
+}
+
+.chartitle {
+    text-align: center!important;
+    position: relative;
+    top: 0%;
+}
+
+.character-fullname {
+    position: relative;
+    width: auto;
+}
+
+.character-buttons {
+    display: none;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+}

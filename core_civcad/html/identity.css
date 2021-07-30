@@ -1,0 +1,50 @@
+#identitycon {
+    position: absolute;
+    display: none;
+    bottom: 0%;
+    transform: translate(-0%, -0%);
+    height: fit-content;
+    width: 100%;
+    height: 80%;
+}
+
+#identinputcon {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transform: translate(-0%, -5%);
+    height: auto;
+    width: auto;
+}
+
+#identbutcon {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    height: auto;
+    width: fit-content;
+}
+
+#identpfp {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    content: url(https://i.imgur.com/fk6rOaX.png);
+    border-radius: 5%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+#identpfpbutcon {
+    position: relative;
+    width: 100%;
+}
+
+#identpfpcon {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 5%;
+    right: 5%;
+    transform: translate(-10%, -5%);
+}
