@@ -14,7 +14,7 @@ Usage:
 * /resetui | Resets the UI locations and saves.
 * /healthtoggle | Toggle the visibility of the health div.
 * /armortoggle | Toggle the visibility of the armor div.
-* /uiall| Toggle the visibility of the armor, and health div.
+* /uiall | Toggle the visibility of the armor, and health div.
 
 Developer API:
 * exports.infinity_hud:ToggleDisp(case) | case: 'health', 'armor', 'reset', 'all'
