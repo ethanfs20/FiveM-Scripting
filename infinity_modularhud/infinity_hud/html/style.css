@@ -1,0 +1,42 @@
+﻿.healthdiv {
+    display: block;
+    position: absolute;
+    bottom: 30%;
+    left: 4.8%;
+    border-radius: 100%;
+}
+
+.armordiv {
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 2.2%;
+    border-radius: 100%;
+}
+
+.fueldiv {
+    display: none;
+    position: absolute;
+    bottom: 19.8%;
+    left: 1.1%;
+    border-radius: 100%;
+}
+
+.seatbeltdiv {
+    display: none;
+    position: absolute;
+    bottom: 15.2%;
+    left: 1%;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.progress {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transform-origin: 50% 50%;
+    -webkit-transition: 0.35s stroke-dashoffset;
+    -o-transition: 0.35s stroke-dashoffset;
+    transition: 0.35s stroke-dashoffset;
+}
